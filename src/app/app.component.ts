@@ -24,7 +24,7 @@ export class AppComponent {
             
             let curSatellite = new Satellite(satellite.name, satellite.type, satellite.launchDate, satellite.orbitType, satellite.operational)
 
-           this.sourceList.push(satellite);
+           this.sourceList.push(curSatellite);
           }
  
        }.bind(this));
